@@ -1,0 +1,39 @@
+pth.drl
+
+  Plated drill holes.
+
+pslots.grb
+
+  Plated non-circular holes.
+
+edge-route.grb
+
+  Board edge cuts and non-plated slots.
+
+metal-top.grb
+
+  Top/obverse metal.
+
+metal-bot.grb
+
+  Bottom/reverse metal.
+
+soldermask-top.grb
+
+  Top/obverse solder mask openings.
+
+soldermask-bot.grb
+
+  Bottom/reverse solder mask openings.
+
+silkscreen-top.grb
+
+  Top/obverse silk screen printing.
+
+silkscreen-bot.grb
+
+  Bottom/reverse silk screen printing.
+
+notes.grb
+
+  Comment layer only.

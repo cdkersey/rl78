@@ -1,0 +1,12 @@
+xc1 regc gnd c_0805_1uF
+xc2 v5 gnd c_0805_1uF
+xu1 gp_1_ gp_0_ pin_8_ pin_12_ pin_13_ pin_15_ pin_14_ regc gnd v5 pin_9_ gnd pin_27_ pin_26_ pin_25_ pin_17_ pin_18_ pin_19_ gnd pin_29_ pin_16_ pin_31_ pin_30_ pin_20_ gnd pin_28_ uart_rx uart_tx pin_11_ pin_21_ pin_24_ pin_3_ pin_23_ pin_2_ pin_22_ pin_4_ pin_5_ pin_6_ pin_7_ pin_10_ r5f100ehana
+xc3 v5 gnd c_0805_10uF
+xc4 vusb gnd c_0805_330nF
+xr1 v5 _rst r_0805_10k
+xu2 gp_0_ gp_1_ _rst uart_rx uart_tx gp_2_ gp_3_ sda scl vusb usb_dn usb_dp gnd _n131 _n132 v5 mcp2221a_qfn
+xr2 pin_22_ gp_2_ r_0805_10k
+xr3 pin_21_ gp_3_ r_0805_10k
+xr4 gp_1_ uart_tx r_0805_2k
+xj1 gnd v5 _n133 _n134 usb_dn usb_dp usb_dn usb_dp _n135 _n136 v5 gnd gsb1c4621ds2hr
+xj2 gnd pin_2_ pin_3_ pin_4_ pin_5_ pin_6_ pin_7_ pin_8_ pin_9_ pin_10_ pin_11_ pin_12_ pin_13_ pin_14_ pin_15_ pin_16_ pin_17_ pin_18_ pin_19_ pin_20_ pin_21_ pin_22_ pin_23_ pin_24_ pin_25_ pin_26_ pin_27_ pin_28_ pin_29_ pin_30_ pin_31_ v5 dip_header_32

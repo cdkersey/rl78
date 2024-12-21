@@ -1,0 +1,7 @@
+xc1 v5 gnd c_0805_10uF
+xc2 vusb gnd c_0805_330nF
+xr1 v5 _rst r_0805_10k
+xu1 v5 gp_0_ gp_1_ _rst gp_1_ uart_tx gp_2_ gp_3_ sda scl vusb usb_dn usb_dp gnd mcp2221a_soic
+xr2 gp_1_ uart_tx r_0805_2k
+xj1 v5 gp_0_ gp_1_ uart_tx gp_1_ gnd pgmhdr
+xj2 gnd v5 _n13 _n14 usb_dn usb_dp usb_dn usb_dp _n15 _n16 v5 gnd gnd gnd gnd gnd gsb1c4621ds2hr

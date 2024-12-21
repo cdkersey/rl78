@@ -1,0 +1,14 @@
+xb1 gnd vbat bh-25f-1
+xsw1 sw gnd gnd gnd TL1105XF160QBLKSTEM
+xd1 pgate sw 1n4148
+xd2 sw_uc sw 1n4148
+xr1 sw_uc vcc r_0805_22k
+xr2 vbat pgate r_0805_22k
+xmp1 pgate vbat vcc dmp2123l
+xmn1 pgm_rx gnd pgate 2n7002
+xc1 regc gnd c_0805_1 u
+xc2 vcc gnd c_0805_1 u
+xu1 tool0 _rst _n56 _n57 _n58 _n59 _n60 regc gnd vcc _n64 gnd _n66 _n67 _n68 _n69 _n70 _n71 gnd _n73 _n74 _n118 _n117 _n116 gnd _n114 pgm_tx pgm_rx sw_uc _n83 _n84 _n85 _n86 _n87 _n88 _n89 _n90 sda scl _n93 gnd r5f100ehana
+xr3 vcc _rst r_0805_10k
+xj1 vcc _rst tool0 pgm_rx pgm_tx gnd pgmhdr
+xj2 gnd vcc scl sda disphdr
